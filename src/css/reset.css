@@ -13,10 +13,11 @@ p:last-child {
   margin-bottom: 0;
 }
 
-ul {
+ul,
+ol {
   margin: 0;
   padding: 0;
-  list-style: none;
+  list-style-type: none;
 }
 
 a {
@@ -26,10 +27,19 @@ a {
 
 button {
   cursor: pointer;
+  font-family: inherit;
+}
+
+input {
+  font-family: inherit;
 }
 
 img {
   display: block;
   max-width: 100%;
   height: auto;
+}
+
+* {
+  box-sizing: border-box;
 }
